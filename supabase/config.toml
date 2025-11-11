@@ -1,6 +1,9 @@
 project_id = "njbilyjewbngbhcnekxw"
 
-# Create a public bucket (you can add more later)
+[storage]
+# optional: a sensible default
+file_size_limit = "50MB"
+
 [[storage.buckets]]
 name   = "public"
 public = true
