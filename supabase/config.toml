@@ -1,6 +1,6 @@
 project_id = "njbilyjewbngbhcnekxw"
 
-# (optional) auto-create a bucket the first time
-# [[storage.buckets]]
-# name = "public"
-# public = true
+# Create a public bucket (you can add more later)
+[[storage.buckets]]
+name   = "public"
+public = true
