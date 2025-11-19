@@ -1,9 +1,5 @@
 project_id = "njbilyjewbngbhcnekxw"
 
-[storage]
-# optional: a sensible default
-file_size_limit = "50MB"
-
 [[storage.buckets]]
-name   = "public"
+name = "public"
 public = true
