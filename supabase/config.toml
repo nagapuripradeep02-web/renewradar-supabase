@@ -3,5 +3,5 @@ project_id = "njbilyjewbngbhcnekxw"
 [storage]
 # Array-of-tables syntax (required by the deploy worker)
 [[storage.buckets]]
-name   = "public"
+name   = "uploads"
 public = true
