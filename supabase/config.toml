@@ -1,6 +1,5 @@
 project_id = "njbilyjewbngbhcnekxw"
-
 [storage]
-[[storage.buckets]]
-name = "public"
-public = true
+buckets = [
+  { name = "public", public = true }
+]
