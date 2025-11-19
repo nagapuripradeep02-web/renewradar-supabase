@@ -1,5 +1,8 @@
 project_id = "njbilyjewbngbhcnekxw"
+
+# Create Storage buckets on first deploy
 [storage]
-buckets = [
-  { name = "public", public = true }
-]
+# Array-of-tables syntax (required by the deploy worker)
+[[storage.buckets]]
+name = "public"
+public = true
